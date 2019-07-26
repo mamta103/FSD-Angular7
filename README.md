@@ -25,12 +25,28 @@ Q.Data Binding
       -One Way data Binding->Either Component to view
       -TWo way data Binding->Component to View
       
-Q.Interpolation->{{}}->Component to View(Model to View)
-Q.Property data Bunding->
-Q.Event Data Binding
+Q.Interpolation->{{}}->Component to View(Model to View)-->numbers,string,functionality
+but not boolean 
+Interpolation is for Property but not for Boolean.
+
+Q.Property data Bunding->[]->component ->view
+Q.Event Data Binding->[()]
 
 Q.now trying to application integrated with bootstap.but dont use bootstap in angular because bootstarp jquery and angular does not use 
 jquery instead we will use angular materail.
 
 Q.Propety Binding:
+so in student.html
+{{cssButton}}
+in student.component.ts
+constructor(){
+this.cssButton="btn btn-primary";
+this.btntxt="Login";
+
+}
+
+Q.Adding angular material?
+ng add @angular/material.
+
+
       
